@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Rose Day, Sharli! 🌹</title>
+    <style>
+        body {
+            background-color: #ffdde1;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #d63384;
+        }
+        .rose {
+            width: 150px;
+            animation: float 3s infinite alternate;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-15px); }
+        }
+        .message {
+            font-size: 18px;
+            color: #555;
+            margin-top: 10px;
+        }
+        .btn {
+            background-color: #ff4081;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #d81b60;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Rose Day, My Love 🌹</h1>
+    <img class="rose" src="https://www.pngmart.com/files/1/Beautiful-Red-Rose-PNG.png" alt="Rose">
+    <p class="message">My dearest Sharli, just like a rose in full bloom, your presence in my life brings beauty, love, and warmth that words can hardly capture. Every petal of this delicate rose represents the countless reasons why I cherish you—your kindness, your laughter, your endless support, and the way your love fills my heart with joy. You are my safe haven, my greatest blessing, and the most precious part of my world. On this special day, I want to remind you how deeply I adore you and how grateful I am for the love we share. You are my forever and always, the most beautiful rose in the garden of my life. 🌹💖</p>
+    <button class="btn" onclick="showSurprise()">Click for a Surprise</button>
+    <p id="surpriseMessage" class="message" style="display: none; font-weight: bold; color: #d63384;">You are the most precious gift in my life, and I will love you endlessly, today and forever. 🌹💖</p>
+
+    <script>
+        function showSurprise() {
+            document.getElementById('surpriseMessage').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
